@@ -1,0 +1,74 @@
+ <!--1.Sua página deve conter um cabeçalho (h1) com o nome do seu site 
+                
+    2.Coloque o nome do site também no título (title) 
+    
+    3.Seu site deve conter 3 links que levem a outras páginas (página não necessariamente criadas por você) sobre o assunto
+        a.Um desses links deve ser um link com imagem (ou seja, ao clicar na imagem, o usuário é levado a uma nova página)
+        b.Esses links devem estar dentro de uma lista (ul ou ol)
+    
+    4.Crie uma tabela com dados sobre o assunto abordado. Essa tabela tem que ter, pelo menos, três linhas e tem que ter cabeçalho (thead).
+        a.Use negrito para destacar alguns dados nessa tabela
+        
+    5.Caso queira, divida as seções do seu site usando divs
+    
+    6.Comente o seu código! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- 2.Coloque o nome do site também no título (title) -->
+    <title>Meu Semestre - 2023.2</title>
+</head>
+<body>
+    <div id="cabeçalho">
+        <!-- 1.Sua página deve conter um cabeçalho (h1) com o nome do seu site -->
+        <h1>Meu Semestre - 2023.2</h1>
+    </div>
+    
+    <!-- 3.Seu site deve conter 3 links que levem a outras páginas (página não necessariamente criadas por você) sobre o assunto -->
+    <div id="disciplinas_links">
+        <!-- 3b.Esses links devem estar dentro de uma lista (ul ou ol) -->
+        <ul>
+            <li>
+                <a href="https://github.com/paulotguerra/QXD0046">Teoria da Computação</a>
+            </li>
+            <li>
+                <a href="https://github.com/paulotguerra/QXD0178">Mineração de Dados</a>
+            </li>
+            <li>
+                <a href="https://github.com/EdOliveiraJr/LMS-2023.2">Liguagem de Marcação e Script</a>
+            </li>
+
+            <!-- 3a.Um desses links deve ser um link com imagem (ou seja, ao clicar na imagem, o usuário é levado a uma nova página) -->
+            <li>
+                <a href="https://www.notion.so/2023-2-9093ca761b1c4463a8097bbd14912125?pvs=4"> <img src="iconeNotion.png" alt="notion" width="20px"> </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="disciplinas_tabela">
+        <!-- 4.Crie uma tabela com dados sobre o assunto abordado. Essa tabela tem que ter, pelo menos, três linhas e tem que ter cabeçalho (thead). -->
+        <table>
+            <thead>
+                <th> Disiplinas </th> <th> Nota 01 </th> <th> Nota 02 </th> <th> Nota 03 </th> <th> Média Final </th>
+            <thead>
+            <tbody>
+                <!-- 4a.Use negrito para destacar alguns dados nessa tabela -->
+                <tr>
+                    <td> <strong> TC </strong> </td> <td> 00 </td><td> 00 </td><td> 00 </td><td> 00 </td>
+                </tr>
+                <tr>
+                    <td> <strong> MD </strong> </td> <td> 00 </td><td> 00 </td><td> 00 </td><td> 00 </td>
+                </tr>
+                <tr>
+                    <td> <strong> LMS </strong> </td> <td> 00 </td><td> 00 </td><td> 00 </td><td> 00 </td>
+                </tr>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
