@@ -9,15 +9,16 @@ h1 {
 }
 
 ul {
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
 }
 
 li {
-    padding: 15px;
-    margin: 10px;
+    padding-inline: 15px;
+    margin: 5px;
     list-style: none ;
 }
 
@@ -33,7 +34,7 @@ a {
     font-weight: bold;
 }
 
-div {
+div.flex {
     display: flex;
     align-items: center;
     justify-content: center;
