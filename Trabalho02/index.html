@@ -1,0 +1,98 @@
+<!-- 1. Use as tags semânticas para dividir a seção (no lugar das divs)
+2. Adicione um novo artigo com formulário de cadastro de usuários.
+Esse usuário deve fazer requisições GET à página
+https://www.w3schools.com/action_page.php. Seu formulário
+deve conter:
+a. Um campo texto para nome com que permite no máximo 15
+caracteres
+b. Um campo texto apenas para leitura
+c. Um campo numérico para inserir números entre 25000 e
+30000
+d. Um input do tipo radiobox
+e. Um input do tipo checkbox
+3. Comente o seu código! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Meu Semestre - 2023.2</title>
+</head>
+<body>
+   <div class="container">
+        <div class="flex">
+            <a href="https://www.quixada.ufc.br" target="_blank" rel="noopener noreferrer"><img src="./images/Banner_site_1200_450_Cinza-01.jpg" height="300px"  alt=""></a>
+        </div>
+
+        <h1>Meu Semestre - 2023.2</h1>
+        
+        <div class="flex">
+            <ul>
+                <li>
+                    <a href="https://github.com/paulotguerra/QXD0046" target="_blank">Teoria da Computação</a>
+                </li>
+                <li>
+                    <a href="https://github.com/paulotguerra/QXD0178" target="_blank">Mineração de Dados</a>
+                </li>
+                <li>
+                    <a href="https://github.com/EdOliveiraJr/LMS-2023.2" target="_blank">Liguagem de Marcação e Script</a>
+                </li>
+                <li>
+                    <a href="https://www.notion.so/2023-2-9093ca761b1c4463a8097bbd14912125?pvs=4" target="_blank"> <img src="./images/iconeNotion.png" alt="notion" width="20px"> </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex">
+            <table>
+                <thead>
+                    <th> Disiplinas </th> <th> Nota 01 </th> <th> Nota 02 </th> <th> Nota 03 </th> <th> Média Final </th>
+                <thead>
+                <tbody>
+                    
+                    <tr>
+                        <td> <strong> TC </strong> </td> <td> 00 </td><td> 00 </td><td> 00 </td><td> 00 </td>
+                    </tr>
+                    <tr>
+                        <td> <strong> MD </strong> </td> <td> 00 </td><td> 00 </td><td> 00 </td><td> 00 </td>
+                    </tr>
+                    <tr>
+                        <td> <strong> LMS </strong> </td> <td> 00 </td><td> 00 </td><td> 00 </td><td> 00 </td>
+                    </tr>
+                </tr>
+            </table>
+        </div>
+
+        <div class="flex">
+            <form action="https://www.w3schools.com/action_page.php" method="post" target="_blank">
+                <label for="name">Insira seu nome</label>
+                <input type="text" name="name" maxlength="15"><br>
+                
+                <label for="leitura"> Campo somente leitura</label>
+                <input type="text" name="leitura" id="leitura" value="Somente leitura" disabled><br>
+                
+                <label for="numero">Insira um numero (de 2500 a 3000)</label>
+                <input type="number" name="numero" id="numero" min="2500" max="3000"><br>
+                
+                <label for="radiobox">Como você avalia essa página?</label><br>
+                <input type="radio" name="sim" id="sim">
+                <label for="sim">Asmuei!!</label>
+                <input type="radio" name="nao" id="nao">
+                <label for="sim">Né querendo falar nada não, mas ...</label><br>
+
+                
+                <label from="checkbox" >Aceito nossos termos para envio dos dados?</label><br>
+                <input type="checkbox" name="concordo" id="concordo">
+                <label for="concordo">Arroxa!!</label>
+                <input type="checkbox" name="dicordo" id="discordo">
+                <label for="dicordo">Umnemm!!</label><br>
+
+                <button type="submit">Enviar</button><br>
+            </form>
+        </div>
+   </div>
+</body>
+</html>
