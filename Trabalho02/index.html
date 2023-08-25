@@ -23,13 +23,12 @@ e. Um input do tipo checkbox
 </head>
 <body>
    <div class="container">
-        <div class="flex">
+        <header><!-- 1. Use as tags semânticas para dividir a seção (no lugar das divs)-->
             <a href="https://www.quixada.ufc.br" target="_blank" rel="noopener noreferrer"><img src="./images/Banner_site_1200_450_Cinza-01.jpg" height="300px"  alt=""></a>
-        </div>
+            <h1 class="flex">Meu Semestre - 2023.2</h1>
+        </header>
 
-        <h1>Meu Semestre - 2023.2</h1>
-        
-        <div class="flex">
+        <section class="flex" id="linksDisciplinas">
             <ul>
                 <li>
                     <a href="https://github.com/paulotguerra/QXD0046" target="_blank">Teoria da Computação</a>
@@ -44,15 +43,14 @@ e. Um input do tipo checkbox
                     <a href="https://www.notion.so/2023-2-9093ca761b1c4463a8097bbd14912125?pvs=4" target="_blank"> <img src="./images/iconeNotion.png" alt="notion" width="20px"> </a>
                 </li>
             </ul>
-        </div>
+        </section>
 
-        <div class="flex">
+        <section class="flex" id="tabela"><!-- 1. Use as tags semânticas para dividir a seção (no lugar das divs)-->
             <table>
                 <thead>
                     <th> Disiplinas </th> <th> Nota 01 </th> <th> Nota 02 </th> <th> Nota 03 </th> <th> Média Final </th>
                 <thead>
                 <tbody>
-                    
                     <tr>
                         <td> <strong> TC </strong> </td> <td> 00 </td><td> 00 </td><td> 00 </td><td> 00 </td>
                     </tr>
@@ -64,35 +62,50 @@ e. Um input do tipo checkbox
                     </tr>
                 </tr>
             </table>
-        </div>
+        </section>
 
-        <div class="flex">
-            <form action="https://www.w3schools.com/action_page.php" method="post" target="_blank">
-                <label for="name">Insira seu nome</label>
-                <input type="text" name="name" maxlength="15"><br>
-                
-                <label for="leitura"> Campo somente leitura</label>
-                <input type="text" name="leitura" id="leitura" value="Somente leitura" disabled><br>
-                
-                <label for="numero">Insira um numero (de 2500 a 3000)</label>
-                <input type="number" name="numero" id="numero" min="2500" max="3000"><br>
-                
-                <label for="radiobox">Como você avalia essa página?</label><br>
-                <input type="radio" name="sim" id="sim">
-                <label for="sim">Asmuei!!</label>
-                <input type="radio" name="nao" id="nao">
-                <label for="sim">Né querendo falar nada não, mas ...</label><br>
-
-                
-                <label from="checkbox" >Aceito nossos termos para envio dos dados?</label><br>
-                <input type="checkbox" name="concordo" id="concordo">
-                <label for="concordo">Arroxa!!</label>
-                <input type="checkbox" name="dicordo" id="discordo">
-                <label for="dicordo">Umnemm!!</label><br>
-
-                <button type="submit">Enviar</button><br>
-            </form>
-        </div>
+        <section class="flex" id="formulario">
+            <div id="formbox">
+                <!-- 2. Adicione um novo artigo com formulário de cadastro de usuários.
+                        Esse usuário deve fazer requisições GET à página https://www.w3schools.com/action_page.php. -->
+                <form action="https://www.w3schools.com/action_page.php" method="get" target="_blank">
+                    <label for="name">Insira seu nome</label>
+                    <!-- a. Um campo texto para nome com que permite no máximo 15 caracteres -->
+                    <input type="text" name="name" maxlength="15"><br>
+                    
+                    <label for="leitura"> Campo somente leitura</label>
+                    <!-- b. Um campo texto apenas para leitura -->
+                    <input type="text" name="leitura" id="leitura" value="Somente leitura" disabled><br>
+                    
+                    <label for="numero">Insira um numero (de 25000 a 30000)</label>
+                    <!-- c. Um campo numérico para inserir números entre 25000 e 30000 -->
+                    <input type="number" name="numero" id="numero" min="25000" max="30000"><br>
+                    
+                    <label for="radiobox">Como você avalia essa página?</label><br>
+                    <!-- d. Um input do tipo radiobox -->
+                    <input type="radio" name="sim" id="sim">
+                    <label for="sim">Asmuei!!</label>
+                    <input type="radio" name="nao" id="nao">
+                    <label for="sim">Né querendo falar nada não, mas ...</label><br>
+    
+                    
+                    <label from="checkbox" >Aceito nossos termos para envio dos dados?</label><br>
+                    <!-- e. Um input do tipo checkbox -->
+                    <input type="checkbox" name="concordo" id="concordo">
+                    <label for="concordo">Arroxa!!</label>
+                    <input type="checkbox" name="discordo" id="discordo">
+                    <label for="discordo">Umnemm!!</label><br>
+    
+                    <button type="submit">Enviar</button><br>
+                </form>
+            </div>
+           
+            
+        </section>
+        <footer> <!-- 1. Use as tags semânticas para dividir a seção (no lugar das divs)-->
+            <p class="flex footer" >Desenvolvido por: Edvaldo Oliveira ®</p>
+            <p class="flex footer">Agosto de 2023</p>                            
+        </footer>
    </div>
 </body>
 </html>
