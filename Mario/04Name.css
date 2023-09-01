@@ -1,0 +1,189 @@
+.looks {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 0px solid black;
+}
+
+h2 {
+    text-align: center;
+    margin-left: px;
+}
+
+div.relative_name {
+    position: relative;
+    width: 240px;
+    height: 100px;
+    left: 160px;
+    top: 50px;
+    border: 0px solid black
+}
+
+div.absolute_name11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black
+}
+
+div.absolute_name12 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background-color: black
+}
+
+div.absolute_name13 {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    background-color: black
+}
+
+div.absolute_name15 {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    background-color: black
+}
+
+div.absolute_name16 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    background-color: black
+}
+
+div.absolute_name19 {
+    position: absolute;
+    top: 0px;
+    left: 160px;
+    background-color: black
+}
+
+div.absolute_name21 {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background-color: black
+}
+
+div.absolute_name25 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    background-color: black
+}
+
+div.absolute_name27 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    background-color: black
+}
+
+div.absolute_name29 {
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    background-color: black
+}
+
+div.absolute_name31 {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background-color: black
+}
+
+div.absolute_name32 {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    background-color: black
+}
+
+div.absolute_name35 {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    background-color: black
+}
+
+div.absolute_name37 {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    background-color: black
+}
+
+div.absolute_name39 {
+    position: absolute;
+    top: 40px;
+    left: 160px;
+    background-color: black
+}
+
+div.absolute_name41 {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    background-color: black
+}
+
+div.absolute_name45 {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    background-color: black
+}
+
+div.absolute_name47 {
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    background-color: black
+}
+
+div.absolute_name51 {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-color: black
+}
+
+div.absolute_name52 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background-color: black
+}
+
+div.absolute_name53 {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    background-color: black
+}
+
+div.absolute_name55 {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: black
+}
+
+div.absolute_name56 {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    background-color: black
+}
+
+div.absolute_name59 {
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    background-color: black
+}
+
