@@ -9,3 +9,4 @@ Trabalhos 📝  | Assunto
 [Trabalho 02](./Trabalho02/) | Uso de tags semânticas e tipos de formulários
 [Mario](./Mario) | Trabalhando com CSS e ```positions```
 [Trabalho 03](./Trabalho03/) | Divisão da tela com tags semânnticas e uso do recurso de display flex
+[Trabalho 04](./Trabalho04/) | Trabalhando o uso do display flex
