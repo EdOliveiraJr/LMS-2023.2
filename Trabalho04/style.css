@@ -193,7 +193,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    min-width: 900px;
+    width: 900px;
     margin: 10px;
     padding: 10px;
     background-color:rgba(205, 205, 55, 0.2);
